@@ -1,0 +1,6 @@
+mkdir astraea && cd astraea
+git clone git@github.com:s22s/astraea-seed.git
+git clone git@github.com:s22s/astraea-components.git
+cd astraea-components && npm install
+cd ../astraea-seed && npm install
+npm run develop
